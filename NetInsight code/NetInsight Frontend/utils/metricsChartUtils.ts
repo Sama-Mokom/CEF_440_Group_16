@@ -2,7 +2,7 @@ import moment from 'moment';
 
 type Entry = {
   timestamp: number;
-  signalStrength?: number;
+  signalStrength?: number | null;
   downloadSpeed?: number;
   uploadSpeed?: number;
   latency?: number;
@@ -38,7 +38,7 @@ export function generateChartData(
   for (const entry of entries) {
     const value = entry[key];
 
-    if (typeof value !== 'number') continue;
+    if (typeof value !== 'number' || value === null || !isFinite(value)) continue;
 
     const date = moment(entry.timestamp);
 

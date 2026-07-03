@@ -109,6 +109,15 @@ export const translations = {
     catCustomerService: 'Customer Service',
     catOther: 'Other',
 
+    // Drop frequency question
+    dropFrequencyTitle: 'How often do you experience network drops or interruptions?',
+    dropFrequencyHint: 'A network drop is when your connection cuts out mid-use (call, browsing, streaming).',
+    dropNever:      'Never',
+    dropRarely:     'Rarely',
+    dropOccasional: 'Occasionally',
+    dropFrequent:   'Frequently',
+    dropConstant:   'Constantly',
+
     // Settings screen
     settings: 'Settings',
     networkMonitoring: 'Network Monitoring',
@@ -288,6 +297,15 @@ export const translations = {
     catAppExperience: "Exp\u00e9rience de l'application",
     catCustomerService: 'Service client',
     catOther: 'Autre',
+
+    // Drop frequency question
+    dropFrequencyTitle: 'À quelle fréquence subissez-vous des coupures réseau?',
+    dropFrequencyHint: `Une coupure est une perte de connexion en cours d'utilisation (appel, navigation, streaming).`,
+    dropNever:      'Jamais',
+    dropRarely:     'Rarement',
+    dropOccasional: 'Parfois',
+    dropFrequent:   'Souvent',
+    dropConstant:   'En permanence',
 
     // Settings screen
     settings: 'Param\u00e8tres',
